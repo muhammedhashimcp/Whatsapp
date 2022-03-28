@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* background-color: rgb(226, 9, 9); */
+    width: 100%;
+    height: 3400px;
+    
+   
+
+}
+/* header section  start here */
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #128c7e;
+    position: fixed;
+   
+ 
+}
+
+.logo{
+    width: 165px;
+    height: 35px;
+    margin-left: 240px;
+    margin-top: 28px;
+
+}
+
+nav{
+    width: 800px;
+    height: 50px;
+    margin-left: 430px;
+    margin-top: -30px;
+}
+
+.header a{
+    padding-left: 45px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+
+.language{
+    width: 60px;
+    height: 30px;
+    background: none;
+    border: none;
+    margin-left: 810px;
+    margin-top: -30px;
+    font-size: 18px;
+    color: white;
+}
+
+/* header section  ends here */
+
+
+/* common text start here */
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    margin: 10px;
+    
+
+}
+h3{
+    color: rgb(97, 89, 89);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+p{
+    color: rgb(97, 89, 89);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+    padding-right: 12%;
+
+}
+/* common text ends here */
+
+/* main section start here */
+
+
+
+.main-div{
+    width: 90%;
+    height: 3000px;
+}
+/* left section start here */
+
+
+.left-section{
+    width: 710px;
+    height: 3400px;
+    float: left;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*  text section start here */
+
+.section-text{
+
+    padding-top: 130px;
+    height: 1230px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FCF2C6;
+
+   
+}
+.para-div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: grey;
+}
+.textsection-image{
+    padding-top: 25px;
+    width: 380px;
+    height: 740px;
+    margin: auto;
+}
+/* text section ends here */
+
+/* whatsapp calls start here */
+.whatsapp-calls{
+    height: 670px;
+    width: 710px;
+    margin-top: 25px;
+    padding-top: 35px;
+    background-color: #D8E8EA;
+
+}
+
+.calls-image{
+    margin-top: 20px;
+    width: 420px;
+    height: 250px;
+
+}
+/* whatsapp calls section ends here */
+
+/* share moments start here */
+.share-moment{
+    height: 760px;
+    width: 710px;
+    margin-top: 25px;
+    background-color: #FCF2C6;
+
+}
+.sharemoment-image{
+    width: 380px;
+    height: 440px;
+    margin-left: 165px;
+
+}
+/* share moments ends here */
+
+/* documents section start here */
+.documents{
+    height: 640px;
+
+    margin-top: 25px;
+    background-color: #FCF2C6;
+    padding-top: 35px;
+
+
+}
+.documents-image{
+    height: 320px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 45px;
+
+}
+
+/* documents section ends here */
+
+/* RIGHT SECTION start here */
+
+.right-section{
+    width: 710px;
+    height: 3400px;
+    margin-left: 23px;
+    float: left;
+
+}
+
+/* groupchat section start here */
+.section-groupchat{
+    padding: 130px;
+    height: 880px;
+    background-color: #E7F0E4;
+    display: flex;
+    flex-direction: column;
+}
+.chatsection-image{
+    width: 470px;
+    height: 390px;
+}
+/* chat section ends here */
+
+
+/* conversation section start here */
+.conversation{
+    height: 700px;
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: #F0F4F9;;
+    
+
+}
+.conversation-image{
+    height: 290px;
+    width: 390px;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+/* conversation ends here */
+/* security start here */
+
+.security{
+    height: 820px;
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: #e7f0e4;
+    
+
+}
+.security-image{
+    height: 400px;
+    width: 440px;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: -10px;
+}
+
+
+
+/* security ends here */
+
+/* voice message start here */
+
+.voice-message{
+    height: 600px;
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: #D8E8EA;
+    
+
+}
+.voicemessage-image{
+    height: 300px;
+    width: 390px;
+    margin-top: -25px;
+    margin-left: 160px;
+    margin-bottom: -10px;
+}
+
+
+/* voice massage ends here */
+
+/* footer section start here */
+
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: #273443;
+   
+}
+.footerbox{
+    padding-top: 100px;
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+
+}
+.footer-div{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+
+}
+.table-heading{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* footer section ends here */
+
+
